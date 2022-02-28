@@ -1,0 +1,22 @@
+body{
+    background-color: #262839;
+    /* background-position: center;
+    background-image: url('@/static/maewest.png');
+    background-size: cover; */
+}
+body::after{
+    content: "";
+    background-image: url('@/static/maewest.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.15;
+    z-index: -1;
+}
+.color-fondo{
+    background-color: #262839;
+}
